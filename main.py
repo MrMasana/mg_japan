@@ -7,7 +7,7 @@ import json
 import os
 import pandas as pd
 import numpy as np
-
+# ХУЙ
 deta = Deta(st.secrets["deta_key"])
 Global = deta.Base("Global")
 db = deta.Base('Kitay')
